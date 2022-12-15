@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+}
+.container .header {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 0;
+  border-bottom: 1px solid #cccccc;
+}
+.container .header .wrapper {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */
